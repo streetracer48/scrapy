@@ -8,4 +8,6 @@
 
 * step three I begin parsing the webpage and searching for the specific elements. I need  to use BeautifulSoup For connecting to the website and getting the HTML I using Python’s urllib. then imported required libraries.
 
+* We now iterate through content to find  the City-List tags in it to get the entire body of the tag.
+
 
