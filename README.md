@@ -8,6 +8,7 @@
 
 * step three I begin parsing the webpage and searching for the specific elements. I need  to use BeautifulSoup For connecting to the website and getting the HTML I using Python’s urllib. then imported required libraries.
 
-* We now iterate through content to find  the City-List tags in it to get the entire body of the tag.
+* I now iterate through content to find  the City-List tags in it to get the entire body of the tag.
 
+* I Saving the parsed text I can save the information I scraped in a .txt or .csv file. with open('scraped_text.txt', 'w') as file: file.write(article)
 
