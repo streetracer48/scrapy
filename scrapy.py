@@ -16,7 +16,7 @@ soup = BeautifulSoup(page, 'html.parser')
 content = soup.find('div', {"class": "Wrap"})
 
 article = ''
-for i in content.findAll('p'):
+for i in content.findAll('City-List'):
     article = article + ' ' +  i.text
 print(article)
 
