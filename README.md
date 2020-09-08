@@ -1,5 +1,6 @@
 # scrapy
 
+
 * For  scraping I'm  going to use the very popular Python library called BeautifulSoup.
   BeautifulSoup installed on my system with python version 3+. (pip install beautifulsoup4)
 
@@ -10,5 +11,5 @@
 
 * I now iterate through content to find  the City-List tags in it to get the entire body of the tag.
 
-* I Saving the parsed text in a .txt or .csv file. with open('scraped_text.txt', 'w') as file: file.write(article)
+* Saving the parsed text in a .txt or .csv file. with open('scraped_text.txt', 'w') as file: file.write(article)
 
